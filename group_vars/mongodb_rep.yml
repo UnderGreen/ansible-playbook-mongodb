@@ -1,0 +1,4 @@
+---
+
+mongodb_conf_auth: true
+mongodb_conf_replSet: testrs

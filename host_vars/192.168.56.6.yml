@@ -1,0 +1,7 @@
+---
+mongodb_conf_port: 30000
+mongodb_conf_journal: false
+mongodb_conf_smallfiles: true
+mongodb_conf_noprealloc: true
+mongodb_replication_params:
+  - { host_name: 192.168.56.6, host_port: "{{ mongodb_conf_port }}", host_type: arbiter }

@@ -1,0 +1,4 @@
+---
+mongodb_master: true
+mongodb_replication_params:
+  - { host_name: 192.168.56.4 }
